@@ -17,7 +17,7 @@ Author: Frederick Ngochi Asacha
 
       
      
-[Deployed Link](https://fred2401.github.io/first-ip.github.io/)
+[Deployed Link](https://github.com/fred2401/second-ip/tree/gh-pages/the%20Ip)
        
 MIT License
 
