@@ -1,0 +1,19 @@
+
+.main{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    float: right;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin-bottom: 50px;
+}
+.head{
+    margin-top: 80px;
+}
+img{
+    float: left;
+    width: 390px;
+    margin-right: 50px;
+}
