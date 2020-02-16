@@ -14,3 +14,11 @@ var days=[ "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "sa
 var actualDay=days[answer];
 var outPut="you were born on "+ actualDay;
 alert(outPut);
+
+var gender=prompt("what's your gender?");
+if (gender==="male"){
+var namesBoys=["Kwame", "Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi"];
+var localName=namesBoys[answer];
+var show="your Akan name would be "+localName;
+alert(show);
+}
