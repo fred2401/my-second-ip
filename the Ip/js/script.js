@@ -22,3 +22,10 @@ var localName=namesBoys[answer];
 var show="your Akan name would be "+localName;
 alert(show);
 }
+else if (gender==="female"){
+    var namesGirls=["Ama", "Akosua", "Adwoa", "Abenaa", " Akua", "Yaa", "Afua"];
+    var nameLocal=namesGirls[answer];
+    var showTwo="your Akan name would be "+nameLocal;
+    alert(showTwo);
+    }
+    
