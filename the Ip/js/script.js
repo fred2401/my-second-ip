@@ -8,3 +8,9 @@ var date=parseInt(prompt("enter the date you were born"));
 var day=function(yearYY, monthMM, date, yearCC){
     return -1*(((yearCC/4) -2*yearCC-1)+((5*yearYY/4))+((26*(monthMM+1)/10))+date)%7;
 };
+var result=parseInt(day(yearYY, monthMM, date, yearCC));
+var answer=result.toFixed();
+var days=[ "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+var actualDay=days[answer];
+var outPut="you were born on "+ actualDay;
+alert(outPut);
