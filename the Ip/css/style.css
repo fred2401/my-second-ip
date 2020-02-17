@@ -17,3 +17,15 @@ img{
     width: 390px;
     margin-right: 50px;
 }
+form{
+    border: 2px solid  grey;
+    background-color:  burlywood;
+    padding-left: 300px;
+}
+h3{
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right: 600px;
+    background-color: white;
+}
