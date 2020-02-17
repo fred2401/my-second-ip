@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 Author: Frederick Ngochi Asacha
 
   Description
