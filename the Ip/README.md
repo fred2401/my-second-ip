@@ -15,7 +15,7 @@ Author: Frederick Ngochi Asacha
         Slack me @ asacha
 
 
-[Deployed Link]()
+[Deployed Link](https://github.com/fred2401/fred2401.github.io.git)
 
 =======
 Project name: Second ip
