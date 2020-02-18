@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.onload=function(){
+      
+var num=[1, 2, 3, 4, 5];
+var added=num.map(x => x+1);
+alert(added);
+var multiple=num.map(x => x*3);
+alert(multiple);
+
+var words=["potato", "monkey", "killer"];
+var upperCase=words.map(function(words){
+ return words.toUpperCase();
+});
+alert(upperCase);
+
+var kittens=["black", "white", "brown"];
+kittens.forEach(function(kitten){
+ alert("i have a "+kitten+" kitten");
+});
+
+var friends=["eric", "wanjau", "batman", "warren", "kabogo"];
+friends.forEach(function(hello){
+  alert("hello "+hello);
+});
+
+var attempt=["monkey", "dog"];
+var attemptTwo=[];
+attemptTwo.push(attempt.reverse());
+alert(attemptTwo);
+
+
+
+    }
+
+  //]]></script>
+
+</head>
+<body>
+    
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: ""
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>

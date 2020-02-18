@@ -1,50 +1,29 @@
-HEAD
-Author: Frederick Ngochi Asacha
 
-  Description
-        It is the project get someones potential Akan name from their birthday information.
-        Written in HTML/CSS and Java script.
+<h3>Project name: Second ip</h3>
 
-  Instalation
-        Just run the .html file or open th webpage. The java script will load fatser tham others so expect that. 
-
-  Bugs.
-        The formula wasn't working so i improvised a  it of it thus the days might not be accurate.
-
- Contacts
-        Slack me @ asacha
-
-
-[Deployed Link](https://fred2401.github.io/second-ip.github.io/the%20Ip/)
-
-=======
-Project name: Second ip
-
-Author: Frederick Ngochi Asacha
+<h3>Author: Frederick Ngochi Asacha</h3>
       
-      Description
-    It is the project get someones potential Akan name from their birthday information.
-    Written in HTML/CSS and Java script.
+  <h2>Description</h2>
+ It is the project get someones potential Akan name from their birthday information.
+ Written in HTML/CSS and Java script.
 
-      Instalation
-    Just run the .html file or open th webpage. The java script will load fatser tham others so expect that. 
+  <h2>Instalation</h2>
+ Just run the .html file or open th webpage. The java script will load fatser tham others so expect that. 
 
-      Bugs.
-    The formula wasn't working so i improvised a  it of it thus the days might not be accurate.
+  <h2>Bugs.</h2>
+ The formula wasn't working so i improvised a  it of it thus the days might not be accurate.
 
-     Contacts
-    Slack me @ asacha
+  <h2>Contacts</h2>
+ Slack me @ asacha
 
       
      
-[Deployed Link](https://github.com/fred2401/second-ip/tree/gh-pages/the%20Ip)
+[Deployed Link](https://fred2401.github.io/second-ip.github.io/the%20Ip/)
        
->>>>>>> gh-pages
 MIT License
 
 Copyright (c) 2019 John Mutavi
 
-<<<<<<< HEAD
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -69,4 +48,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
->>>>>>> gh-pages
+
