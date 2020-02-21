@@ -18,7 +18,7 @@
 
       
      
-[Deployed Link](https://fred2401.github.io/second-ip.github.io/the%20Ip/)
+[Deployed Link]( https://fred2401.github.io/my-second-ip/)
        
 MIT License
 
