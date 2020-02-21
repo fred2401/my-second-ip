@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>akan name generator</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <img src="images/it.jpg">
+            <h1 class="head">Akan name generator</h1>
+            <p >Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 
+                'day name' which corresponds to the day in the week they were born.<br>This website does the above
+                 by utilising your birthday data,</p>
+        </div>
+            <div class="container">
+                <div class="jumbotron">
+                    <p>Depending on the region (and whether it is Christian or Muslim) the children will 
+                        often get common Christian or Muslim first names.
+
+                        With it, at least the first names are complete. The names are given in the
+                        following order:
+                        <ui>
+                        <li>Religious name (either Christian or Muslim)</li>
+                        <li>Number (Frist/ Second/... born)</li>
+                        <li>Day of the week</li>
+                        <li>Twin information</li>
+                        <li>Situation Information</li>
+                        <li>Surname</li>
+                        </ui>
+                        
+                        With this knowledge it is easy to find out your personal Ghanaian name. If you use 
+                        the overview above as your orientation, you can (except for the situation 
+                        information) compile your personal Ghanaian name very precisely.</p>
+                </div>
+            </div>
+        <form>
+            <h3>Form</h1>
+            <p>"enter the year you were born"<br>
+                <input type="number" id="year" placeholder="year">
+            </p>
+            <p>"enter the month you were born"<br>
+                <input type="number" id="month" placeholder="month">
+            </p>
+            <p>"enter the year you were born"<br>
+                <input type="number" id="date" placeholder="date">
+            </p>
+
+            <div class="rdio-default">
+                <label for="male">male</label>
+                    <input type="radio" name="male" id="gender"  value="male"><br>
+            </div>  
+
+            <div class="rdio-default"></div>
+                <label for="female">female</label>      
+                    <input type="radio" name="female" id="gender1"  value="female"><br>
+            </div>
+
+            <input type="button" onclick="data()" value="submit">
+        </form>
+            <script src="js/script.js"></script>
+    </body>
+</html>
