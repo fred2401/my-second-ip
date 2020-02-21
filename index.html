@@ -35,20 +35,28 @@
                 </div>
             </div>
         <form>
-        <h3>Form</h1>
-        <p>"enter the first two digits of the year you were born"<br>
-            <input type="number" id="yearCC" placeholder="first 2">
-        </p>
-        <p>"enter the last two digits of the year you were born"<br>
-            <input type="number" id="yearYY" placeholder="last 2">
-        </p>
-        <p>"enter the month you were born"<br>
-            <input type="text" id="month" placeholder="month">
-        </p>
-        <p>"enter the date you were born"<br>
-            <input type="number" id="date" placeholder="date">
-        </p>
-        <input type="button" onclick="data()" value="submit">
+            <h3>Form</h1>
+            <p>"enter the year you were born"<br>
+                <input type="number" id="year" placeholder="year">
+            </p>
+            <p>"enter the month you were born"<br>
+                <input type="number" id="month" placeholder="month">
+            </p>
+            <p>"enter the year you were born"<br>
+                <input type="number" id="date" placeholder="date">
+            </p>
+
+            <div class="rdio-default">
+                <label for="male">male</label>
+                    <input type="radio" name="male" id="gender"  value="male"><br>
+            </div>  
+
+            <div class="rdio-default"></div>
+                <label for="female">female</label>      
+                    <input type="radio" name="female" id="gender1"  value="female"><br>
+            </div>
+
+            <input type="button" onclick="data()" value="submit">
         </form>
             <script src="js/script.js"></script>
     </body>

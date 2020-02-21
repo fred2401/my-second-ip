@@ -1,31 +1,44 @@
-function data(){
-    var yearCC=parseInt(document.getElementById("yearCC").value);
-    var yearYY=parseInt(document.getElementById("yearYY").value);
-    var month=document.getElementById("month").value;
-    var months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "november", "december"];
-    var monthMM=parseInt(months.indexOf(month))+1;
+function data(){ 
+    var year=parseInt(document.getElementById("year").value);
+    var month=parseInt(document.getElementById("month").value);
     var date=parseInt(document.getElementById("date").value);
+    // console.log(year)
+    // console.log(month)
+    // console.log(date)
+    var dateTwo=new Date();
+    dateTwo.setFullYear(year);
+    dateTwo.setMonth(month);
+    dateTwo.setDate(date);
+    var days=[ "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"];
+    var namesBoys=["Kwame", "Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi"];
+    var namesGirls=["Ama", "Akosua", "Adwoa", "Abenaa", " Akua", "Yaa", "Afua"];
+        
+    var actualDay=dateTwo.getDay();
 
-    var day=function(yearYY, monthMM, date, yearCC){
-        return -1*(((yearCC/4) -2*yearCC-1)+((5*yearYY/4))+((26*(monthMM+1)/10))+date)%7;
-    };
-    var result=parseInt(day(yearYY, monthMM, date, yearCC));
-    var days=[ "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-    var actualDay=days[result];
-    alert("you were born on "+ actualDay)
-
-    var gender=prompt("what's your gender?");
-    if (gender==="male"){
-        var namesBoys=["Kwame", "Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi"];
-        var localName=namesBoys[result];
-        var show="your Akan name would be "+localName;
-            alert(show);
+    if (date===""){
+    alert("input the a date");
     }
-    else if (gender==="female"){
-        var namesGirls=["Ama", "Akosua", "Adwoa", "Abenaa", " Akua", "Yaa", "Afua"];
-        var nameLocal=namesGirls[result];
-        var showTwo="your Akan name would be "+nameLocal;
-        alert(showTwo);
+    
+    // if (dateTwo >= new Date()){
+    // alert("input a passed date as that date isn't here yet");
+    // }
+
+
+    if ((gender.checked==true) & (gender1.checked==true)){
+        alert("pick one gender");
+    }
+
+     else if (gender.checked==true){
+        alert("Your Akan name is "+namesBoys[actualDay]+" since you were born on "+days[actualDay]);
+       
+    }
+
+    else if (gender1.checked==true){
+       alert("Your Akan name is "+namesGirls[actualDay]+" since you were born on "+days[actualDay]);
+    }
+
+    else{
+        alert("check a gender")
     }
 }
 
